@@ -17,7 +17,7 @@ export const Button = styled.button`
     opacity: ${props => props.theme === "primary" ? "0.8" : "1"};
     background: ${props => props.theme !== "primary" ? "#fff" : "linear-gradient(180deg, #FE7E5D 0%, #FF6378 100%)"};
     color: ${props => props.theme !== "primary" ? "blue" : "#fff"};
-    font-weight: ${props => props.theme !== "primary" ? "700" : "400"};
+    font-weight: ${props => props.theme !== "primary" ? "600" : "400"};
   }
       
   
