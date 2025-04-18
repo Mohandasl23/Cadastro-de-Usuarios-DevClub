@@ -11,13 +11,6 @@ export const Container = styled.div`
 `;
 
 
-export const Form = styled.form`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 20px;
-  max-width: 500px;
-`;
 export const Title = styled.h2`
   color: #fff;
   text-align: center;
@@ -25,6 +18,16 @@ export const Title = styled.h2`
   font-style: normal;
   font-weight: 600;
 `;
+
+
+export const Form = styled.form`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  max-width: 500px;
+`;
+
 
 export const ContainerInput = styled.div`
 display: flex;
