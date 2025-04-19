@@ -3,7 +3,7 @@ import {  useNavigate } from "react-router-dom"
 import api from "../../services/api";
 
 import {
-  Title,
+  
   Container,
   Form,
   ContainerInput,
@@ -45,7 +45,7 @@ function Home() {
       
 
       <Form>
-        <Title>Cadastrar Usuários</Title>
+        {/* <Title>Cadastrar Usuários</Title> */}
 
         <ContainerInput>
           <div>
