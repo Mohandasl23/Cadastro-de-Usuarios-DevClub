@@ -21,7 +21,6 @@ import TopBackground from "../../components/TopBackground";
 
 
 
-
 function Home() {
   const inputName = useRef();
   const inputAge = useRef();
@@ -44,7 +43,6 @@ function Home() {
     <Container>
       
       <TopBackground />
-     
       
 
       <Form>
