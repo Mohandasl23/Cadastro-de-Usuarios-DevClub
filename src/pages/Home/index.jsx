@@ -9,6 +9,7 @@ import {
   ContainerInput,
   Input,
   InputLabel,
+  Title,
  
   
   
@@ -16,6 +17,7 @@ import {
 
 import  Button  from "../../components/Button";
 import TopBackground from "../../components/TopBackground";
+
 
 
 
@@ -42,10 +44,11 @@ function Home() {
     <Container>
       
       <TopBackground />
+     
       
 
       <Form>
-        {/* <Title>Cadastrar Usuários</Title> */}
+        <Title>Cadastrar Usuários</Title>
 
         <ContainerInput>
           <div>
